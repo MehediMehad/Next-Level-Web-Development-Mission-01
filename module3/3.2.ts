@@ -28,7 +28,7 @@
   student1.name;
   student1.address;
   student1.age;
-  student1.getSleep;
+  student1.getSleep(7)
 
   // Teacher
   class Teacher extends Person {
@@ -55,6 +55,6 @@
   teacher1.address;
   teacher1.age;
   teacher1.designation;
-  teacher1.getSleep;
-  teacher1.takeClass;
+  teacher1.getSleep(8)
+  teacher1.takeClass(5)
 }
